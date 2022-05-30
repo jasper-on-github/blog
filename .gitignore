@@ -1,0 +1,6 @@
+public/*
+.DS_Store
+Dockerfile*
+docker-compose.yml
+nginx.conf
+Caddyfile
