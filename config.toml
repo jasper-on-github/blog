@@ -1,6 +1,9 @@
 # The URL the site will be built for
 base_url = "https://blog.bollos.nl"
 
+title = "Jasper's blog"
+description = "Personal blogging venture for IT"
+
 # Set the theme
 theme= "DeepThought"
 
