@@ -15,7 +15,7 @@ toc = true
 
 With games being pushed more and more onto digital stores, an increasing amount of people are forced to use these varying launchers to download their games. And as is well known, not everyone gets the same internet connection. This lead me to wondering how the various game launchers handle restricting the bandwidth that they can use for their downloads.
 
-This article will go into how the launchers from Valve, Good old Games (GOG from hereon out), EA, Ubisoft, and Rockstar handle the restricting of available bandwidth. A comparison will be made based on whether the individual launchers support this and what options the launchers give the user in relation to bandwidth restrictions.
+This article will go into how the launchers from Valve, Good old Games (GOG from hereon out), EA, Ubisoft, Rockstar, and Activision Blizzard handle the restricting of available bandwidth. A comparison will be made based on whether the individual launchers support this and what options the launchers give the user in relation to bandwidth restrictions.
 
 # Steam - best case
 
