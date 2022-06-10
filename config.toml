@@ -34,9 +34,9 @@ taxonomies = [
 # katex.enabled = true
 # katex.auto_render = true
 
-chart.enabled = true
-mermaid.enabled = true
-galleria.enabled = true
+chart.enabled = false
+mermaid.enabled = false
+galleria.enabled = false
 
 navbar_items = [
  { code = "en", nav_items = [
