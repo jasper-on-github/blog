@@ -23,7 +23,7 @@ First up is the Steam launcher made by Valve. Steam is the largest of the launch
 
 Looking back through some older Steam versions, the ability to add a bandwidth restriction has existed since about 2013 listed in [this](https://www.ghacks.net/2013/04/24/steam-client-beta-update-brings-long-awaited-download-speed-limiter/) ghacks article. The Steam client shown featured a dropdown menu listing various speed presets, starting at only 128 Kbps up until 250 Mbps:
 
-![Steam client circa 2013 showing download bandwidth restriction options](/images/Games/Launchers/Steam-general-download-options-2013.png)
+![Steam client circa 2013 showing download bandwidth restriction options](/images/Games/Launchers/Steam-general-download-options-2013.webp)
 
 Furthermore, you could select the type of connection that you had and its approximate bandwidth that is available. 
 
@@ -31,9 +31,9 @@ In the current Steam client (2022-05-20) the options are a bit more expanded and
 
 One thing that needs to be looked after is whether the option to "Display download rates in bits per second" is set as this has an impact on the bandwidth limit set in the options. The first image shows a configuration in MB/s with the second in Mb/s:
 
-![Steam client in 2022 showing download bandwidth restriction options in MB/s](/images/Games/Launchers/Steam-general-download-options-2022-MBs.png)
+![Steam client in 2022 showing download bandwidth restriction options in MB/s](/images/Games/Launchers/Steam-general-download-options-2022-MBs.webp)
 
-![Steam client in 2022 showing download bandwidth restriction options in Mb/s](/images/Games/Launchers/Steam-general-download-options-2022-Mbps.png)
+![Steam client in 2022 showing download bandwidth restriction options in Mb/s](/images/Games/Launchers/Steam-general-download-options-2022-Mbps.webp)
 
 Setting a bandwidth limit of 120 MB/s is about 960 Mb/s, or a gigabit connection, 8 times the amount of the Mb/s filter.
 
@@ -47,7 +47,7 @@ Up next is the launcher made by GOG named Galaxy and acts as a competitor for St
 
 The Galaxy launcher has existed since 2019 where it was in closed beta, and would be released to the general public on December 18, 2019 as 2.0.12 Beta. The current version of Galaxy is 2.0.50.34 Beta and offers support for bandwidth limitations:
 
-![GOG Galaxy client circa 2022 showing download bandwidth restriction options](/images/Games/Launchers/GOG-Galaxy-bandwidth-limitations-2022.png)
+![GOG Galaxy client circa 2022 showing download bandwidth restriction options](/images/Games/Launchers/GOG-Galaxy-bandwidth-limitations-2022.webp)
 
 Similar to Steam, Galaxy allows the user to set the bandwidth limit themselves in either MB/s or KB/s; no option for Mbps or Kbps is present which is a bit saddening but better than only presets or not being able to set a limit at all.
 
@@ -57,15 +57,15 @@ Origin is a launcher that I have never really enjoyed using since my first intro
 
 Origin has support for download bandwidth limits since circa 2017, after the community had been asking for it for years on their [EA Answers HQ](https://answers.ea.com/t5/Origin-Client-Web-Technical/How-do-I-set-maximum-download-speed-in-origin/td-p/1444230) page. The thread this community post is referring to contained the following hilarious conversation between a passionate player and a (retired) community manager:
 
-![EA Answers HQ discussion regarding the implementation of download bandwidth restrictions](/images/Games/Launchers/EA-answers-download-restrictions.png)
+![EA Answers HQ discussion regarding the implementation of download bandwidth restrictions](/images/Games/Launchers/EA-answers-download-restrictions.webp)
 
 Since the 2017 release EA Origin does support limiting the amount of bandwidth to be used by downloads, albeit only with presets outside and during games. The options given are quite disappointing to me, only going from 16 KB/s up to 50 MB/s or 400 Mb/s. 
 
-![EA Origin showing the different options available for download restrictions outside gameplay](/images/Games/Launchers/Origin-download-bandwidth-limit-2022-out.png)
+![EA Origin showing the different options available for download restrictions outside gameplay](/images/Games/Launchers/Origin-download-bandwidth-limit-2022-out.webp)
 
 Moreover, the only way to disable downloads whilst playing a game is via the dropdown and selecting "Don't download during gameplay":
 
-![EA Origin showing the different options available for download restrictions during gameplay](/images/Games/Launchers/Origin-download-bandwidth-limit-2022-during.png)
+![EA Origin showing the different options available for download restrictions during gameplay](/images/Games/Launchers/Origin-download-bandwidth-limit-2022-during.webp)
 
 Allowing the end-user to set the bandwidth limit would be a better alternative than any preset could offer, but considering it took EA 4 years to implement this I would say that's more than most would have expected in the first place.
 
@@ -75,7 +75,7 @@ Up next is Uplay, now branded as Connect, is Ubisoft's take on Origin for their 
 
 Looking back through the years it appears that Uplay/Connect has been able to set a bandwidth limit since 2016, going by [this](https://youtu.be/j7Q1Wfr9r_0) YouTube video showcasing the available options. The mechanism shown in the video is the exact same as the one that is present now in Connect. This mechanism is sadly a **slider** that ranges between 0.25 Mb/s and 200 MB/s, or 1600 Mb/s, which is a tad bit excessive in my opinion for **most** connections:
 
-![Ubisoft Connect download bandwidth restriction options](/images/Games/Launchers/Ubisoft-Connect-download-settings.png)
+![Ubisoft Connect download bandwidth restriction options](/images/Games/Launchers/Ubisoft-Connect-download-settings.webp)
 
 My issue with this slider design is that, whilst it has a wide range of options, it doesn't feel intuitive to use. In my situation with a 180 Mbps connection I would use at most ~22% of the slider. Moreover, setting the value is a nightmarish experience of its own as the currently selected value only updates once the user let's go of the slider to set its position, further smaller adjustments are in 0.25 MB/s increments.
 
@@ -91,7 +91,7 @@ Rockstar's launcher is by far the most useless out of the bunch, as was made cle
 
 To my surprise, the launcher does support the limiting of bandwidth for downloads. However, this is only via presets between 128 KB/s up to 100 MB/s or 800 Mb/s:
 
-![Rockstar Games download bandwidth restriction options](/images/Games/Launchers/Rockstar-Games-download-bandwidth-restrictions.png)
+![Rockstar Games download bandwidth restriction options](/images/Games/Launchers/Rockstar-Games-download-bandwidth-restrictions.webp)
 
 # Activision Blizzard Battle.net
 
@@ -99,7 +99,7 @@ Last, but not least, is Activision Blizzard's Battle.net launcher for their own 
 
 The Battle.net has support for bandwidth restrictions for downloads that are entered by the user in a text box with measurements in KB/s and nothing else. This came as a surprise to me, not expecting Activision Blizzard to actually offer this in a way that was not a set of presets. It is however, a bit saddening that they don't show a conversion to MB/s or Mb/s to help users better understand the values they have entered as their connection is most likely measured in MB/s or Mb/s nowadays.
 
-![Activision Blizzard download bandwidth restriction options](/images/Games/Launchers/Activision-Blizzard-Battlenet-launcher-download-bandwidth-restrictions.png)
+![Activision Blizzard download bandwidth restriction options](/images/Games/Launchers/Activision-Blizzard-Battlenet-launcher-download-bandwidth-restrictions.webp)
 
 After a bit of digging it turns out that this functionality has existed until at least 2017 as can be seen in [this](https://www.youtube.com/watch?v=_nBH02xL_Ns) YouTube video tutorial. In the worst case scenario that this is only added in 2017, Activision Blizzard have managed to implement it better than most of the other launchers in the space that were created **after** Battle.net even.
 
