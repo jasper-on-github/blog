@@ -17,7 +17,7 @@ PvIB or Platform voor InformatieBeveiliging is a knowledge center that aims to g
 
 The event via which I learned about PvIB is their pentest event back in 2019 where students and professionals alike can get together and compete in a CTF. Our team entered once before in 2019 when we were just getting started and knew basically nothing. This time around we came more prepared and knowledgeable in hopes of being able to compete for a better position, which we did! In contrast to 2019s semi-last place finish we managed to finish 7th out of 29 in a tie for 6th!
 
-![PvIB CTF 7th place finish for team Picobello](/images/CTF/PvIB/PvIB-CTF-2022-Picobello-7th-place.jpeg)
+![PvIB CTF 7th place finish for team Picobello](/images/CTF/PvIB/PvIB-CTF-2022-Picobello-7th-place.webp)
 
 # Solved Challenges
 
