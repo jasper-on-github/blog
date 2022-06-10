@@ -31,7 +31,7 @@ Opening the PDF showed a generic lorem ipsum text with a blacked out section in 
 
 Next there was a section at the bottom in an odd font that reminded me of dingdings -A quote unquote font consisting of what could b described as emojis instead of letters. Instead of dingdings, this turned out to be webdings and I started trying to translate it. The webdings text can be seen down below:
 
-![PvIB CTF SoEasy challenge part 5: webdings font](/images/CTF/PvIB/PvIB-CTF-2022-SoEasy-pt5.png)
+![PvIB CTF SoEasy challenge part 5: webdings font](/images/CTF/PvIB/PvIB-CTF-2022-SoEasy-pt5.webp)
 
 Translating the webdings to their regular form gave the text `5:bd4d0d54`. 
 
@@ -55,7 +55,7 @@ obj 14 0
 
 Great! After this my teammate Jurrien said to have a look at invisible characters that were written in white font. This revealed the second bit of the string and looked the following when highlighted.
 
-![PvIB CTF SoEasy challenge part 2: white text on a PDF](/images/CTF/PvIB/PvIB-CTF-2022-SoEasy-pt2.png)
+![PvIB CTF SoEasy challenge part 2: white text on a PDF](/images/CTF/PvIB/PvIB-CTF-2022-SoEasy-pt2.webp)
 
 The last part of the flag was hidden in a series of small, hidden white characters near the end of the PDF, of which I first thought they were a regular PDF artefact. This turned *not* to be the case and would reveal the third and last section of the flag when selected and copied into a text file to show the following: `3: 7f4d16`.
 
@@ -68,11 +68,11 @@ And with that our first easy 100 point challenge was completed!
 
 The next challenge was named Plzhackme and linked to a website showing plain HTML text about the server and what was present. The website would look the following from within a browser:
 
-![PvIB CTF Plzhackme challenge showing the homepage of the challenge](/images/CTF/PvIB/PvIB-CTF-2022-Plzhackme-homepage.png)
+![PvIB CTF Plzhackme challenge showing the homepage of the challenge](/images/CTF/PvIB/PvIB-CTF-2022-Plzhackme-homepage.webp)
 
 This shows that the flag we need to grab is present within the machine under the path `/opt/tools/flag.txt` and will be our main priority. As to getting the flag, the website contents explicitly hints at the creator hoping the webserver is secure. Looking at the response given by the webserver shows the webserver being Apache 2.4.49:
 
-![PvIB CTF Plzhackme challenge showing the server version of the website](/images/CTF/PvIB/PvIB-CTF-2022-Plzhackme-Apache-server-response.png)
+![PvIB CTF Plzhackme challenge showing the server version of the website](/images/CTF/PvIB/PvIB-CTF-2022-Plzhackme-Apache-server-response.webp)
 
 Looking online for this version of Apache reveals a CVE for path traversal a remote code execution (RCE) with a matching exploit. This exploit is available via exploit db under following URL: [exploit-db.com/exploits/50383](https://www.exploit-db.com/exploits/50383) and is written in a shell script:
 
@@ -115,11 +115,11 @@ And with that our second challenge had been completed!
 
 A follow-up to Plzhackme was also present in the form of Plzhackme2. This challeng showed an updated website acknowledging the shortcomings of the former version:
 
-![PvIB CTF Plzhackme2 webserver homepage](/images/CTF/PvIB/PvIB-CTF-2022-Plzhackme2-homepage.png)
+![PvIB CTF Plzhackme2 webserver homepage](/images/CTF/PvIB/PvIB-CTF-2022-Plzhackme2-homepage.webp)
 
 The challenge refers to the vulnerability present within Plzhackme and shows the creator hoping this newer version of Apache does not contain this vulnerability anymore. To confirm this, let's check the Apache version and see if anything has changed:
 
-![PvIB CTF Plzhackme2 webserver response with Apache version](/images/CTF/PvIB/PvIB-CTF-2022-Plzhackme2-Apache-server-response.png)
+![PvIB CTF Plzhackme2 webserver response with Apache version](/images/CTF/PvIB/PvIB-CTF-2022-Plzhackme2-Apache-server-response.webp)
 
 The server version has incremented by one from 2.4.49 to 2.4.50! A brief look at the prior exploit shows that an adapted version exists for 2.4.50 that can be found at exploit db under: [exploit-db.com/exploits/50406](https://www.exploit-db.com/exploits/50406) and contains the same shell script more or less:
 
@@ -176,7 +176,7 @@ The format of data looked familiar to Jurrien and I and he then found a Stack Ov
 
 Entering the required information to decrypt the RSA cipher text is straight forward; match the letters of the input and press decrypt. Entering the required information in the right slots gave the flag for this challenge:
 
-![PvIB CTF Really Secure Authentication - decrypted RSA cipher text](/images/CTF/PvIB/PvIB-CTF-2022-Really-Secure-Authentication.png)
+![PvIB CTF Really Secure Authentication - decrypted RSA cipher text](/images/CTF/PvIB/PvIB-CTF-2022-Really-Secure-Authentication.webp)
 
 Et voila! We have the flag for this challenge.
 
