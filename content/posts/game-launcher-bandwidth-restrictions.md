@@ -21,7 +21,7 @@ This article will go into how the launchers from Valve, Good old Games (GOG from
 
 First up is the Steam launcher made by Valve. Steam is the largest of the launchers covered here, it has also been around for the longest amount of time and seen many iterations.
 
-Looking back through some older Steam versions, the ability to add a bandwidth restriction has existed since about 2013 listed in [this](https://www.ghacks.net/2013/04/24/steam-client-beta-update-brings-long-awaited-download-speed-limiter/) ghacks article. The Steam client shown featured a dropdown menu listing various speed presets, starting at only 128 Kbps up until 250 Mbps:
+Looking back through some older Steam versions, the ability to add a bandwidth restriction has existed since about 2013 listed in [this ghacks](https://www.ghacks.net/2013/04/24/steam-client-beta-update-brings-long-awaited-download-speed-limiter/) article. The Steam client shown featured a dropdown menu listing various speed presets, starting at only 128 Kbps up until 250 Mbps:
 
 ![Steam client circa 2013 showing download bandwidth restriction options](/images/Games/Launchers/Steam-general-download-options-2013.webp)
 
@@ -81,7 +81,7 @@ My issue with this slider design is that, whilst it has a wide range of options,
 
 ![Ubisoft Connect download bandwidth restriction slider behaviour](/images/Games/Launchers/Ubisoft-Connect-bandwidth-slider-behaviour.gif)
 
-It was this terrible design that even lead me on to writing a short collection of Tweets regarding the slider and my discontent with it, that would ultimately get turned into this article.
+It was this terrible design that even led me to writing a short collection of Tweets regarding the slider, and my discontent with it, that would ultimately get turned into this article:
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">.<a href="https://twitter.com/UbisoftSupport?ref_src=twsrc%5Etfw">@UbisoftSupport</a> Is there a reason to have the download bandwidth limiter set to Megabytes per second, rather than Mega- or kilobits per second?<br><br>The current scale ranges from 0.25 MB/s to 200MB/s; this is 2 mbps and ~1600 mbps respectively.</p>&mdash; Jasper (@Saszper) <a href="https://twitter.com/Saszper/status/1520853998235967488">May 1, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -92,6 +92,20 @@ Rockstar's launcher is by far the most useless out of the bunch, as was made cle
 To my surprise, the launcher does support the limiting of bandwidth for downloads. However, this is only via presets between 128 KB/s up to 100 MB/s or 800 Mb/s:
 
 ![Rockstar Games download bandwidth restriction options](/images/Games/Launchers/Rockstar-Games-download-bandwidth-restrictions.webp)
+
+# Epic Games Launcher
+
+One launcher I had forgotten about was the Epic Games one as I have used it sporadically. To my surprise, however, within its limited settings menu there was an option to limit the download speed for game downloads. to my even bigger surprise it was not a slider or preset menu, but a value the user could enter in KB/s instead!
+
+![Epic Games Launcher and its download throttling options](/images/Games/Launchers/Epic-Games-Download-Throttling.png)
+
+This small addition places it above the likes of major game publishers stuck on presets or a half-assed slider. But all is not great, as it appears that the feature had been in the oven on the community forum since April 7, 2015 only being shipped in 2020 as can be seen in [this](https://www.reddit.com/r/EpicGamesPC/comments/gaf7yb/egs_feature_update_you_can_now_able_to_throttle/) Reddit. Over on the community forum the comments are less hilarious as those from EA, but sad nonetheless over the amount of time required to get this implemented:
+
+![](/images/Games/Launchers/Epic-Games-Forums-upset-community-members-over-lack-of-throttling.png)
+
+![](/images/Games/Launchers/Epic-Games-Community-Forum-throttling-finally-shipped.png)
+
+> [Epic Games Forums](https://forums.unrealengine.com/t/limit-launchers-download-speed/26719) thread in question.
 
 # Activision Blizzard Battle.net
 
@@ -116,6 +130,7 @@ As for the remaining launchers, I compiled a short table with each launcher and 
 | Valve - Steam | ✅ | User entered values in either Mb/s or MB/s |
 | GOG - Galaxy | ✅ | User entered values in either KB/s or MB/s |
 | EA - Origin | ✅ | Presets ranging between 16 KB/s and 50 MB/s |
+| Epic Games - Launcher| ✅ | User entered values in KB/s |
 | Ubisoft - Connect | ✅ | Slider with values between 0.25 MB/s and 200 MB/s |
 | Rockstar Games | ✅ | Presets ranging between 128 KB/s and 100 MB/s |
 | Activision Blizzard - Battle.net | ✅ | User entered values in KB/s |
